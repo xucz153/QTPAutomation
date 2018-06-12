@@ -1,0 +1,36 @@
+<Environment>
+	<Variable>
+	<!-- Parameter: targetBrowserIndex -->
+	<!-- Value for IE 8: 0 -->
+	<!-- Value for Firefox 12: 1 -->
+	<!-- Value for Chrome 23: 2 -->
+		<Name>targetBrowserIndex</Name>
+		<Value>0</Value>
+	</Variable>
+	<Variable>
+	<!-- Parameter: targetEnvIndex -->
+	<!-- Value for test server: testEnv -->
+	<!-- Value for QA and prod server: NGSQAEnv and NGSProdEnv -->
+		<Name>targetEnvIndex</Name>
+		<Value>NGSProdEnv</Value>
+		<!-- <Value>NGSQAEnv</Value>-->
+	</Variable>
+	<Variable>
+	<!-- Parameter: userName -->
+	<!-- Value for IE 8: 0 -->
+	<!-- Value for Firefox 12: 1 -->
+	<!-- Value for Chrome 23: 2 -->
+		<Name>userName</Name>
+		<Value>ngstesr11</Value>
+		<!--<Value>Loadtest1</Value>-->
+	</Variable>
+	<Variable>
+	<!-- Parameter: password -->
+	<!-- Value for IE 8: 0 -->
+	<!-- Value for Firefox 12: 1 -->
+	<!-- Value for Chrome 23: 2 -->
+		<Name>passWord</Name>
+		<Value>NG$TM@sim</Value>
+		<!--<Value>Lo@dtest</Value>-->
+	</Variable>
+</Environment>
